@@ -79,3 +79,24 @@ button:hover{
         opacity: 1;
     }
 }
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+#savedBox {
+    margin-top: 20px;
+    color: white;
+    text-align: left;
+    font-size: 14px;
+}
