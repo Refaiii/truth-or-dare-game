@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
+    ),
+    url("background.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card{
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+
+    background: rgba(0,0,0,0.75);
+    border: 2px solid #8b0000;
+    border-radius: 20px;
+
+    box-shadow: 0 0 30px #8b0000;
+}
+
+h1{
+    color: #ff0000;
+    text-shadow: 0 0 15px #ff0000;
+}
+
+button{
+    padding: 12px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+.popup{
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background: #111827;
+    color: white;
+    font-size: 18px;
+}
+
+.popup.show{
+    display: block;
+    animation: pop 0.4s ease;
+}
+
+@keyframes pop{
+    from{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
