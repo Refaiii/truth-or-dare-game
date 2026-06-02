@@ -6,7 +6,8 @@ const truths = [
     "What is your secret talent?",
     "Do you have a crush on someone in this room?",
     "What is the most childish thing you still do?",
-    "What is the naughtyest thing you have ever done?"
+    "What is the naughtyest thing you have ever done?",
+    "who is your curent crush?"
 ];
 
 const dares = [
@@ -17,7 +18,8 @@ const dares = [
     "Moan like a cat.",
     "Call your ex and say 'I miss you'.",
     "Buy me a coffee from Bridgeon Cafe.",
-    "Kiss someone on the cheek."
+    "Kiss someone on the cheek.",
+    "moan in a sexy voice twice."
 ];
 
 let currentQuestion = "";
