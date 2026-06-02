@@ -1,21 +1,33 @@
-# 🎲 Truth or Dare Game
+# 🎲 Truth or Dare Horror Edition
 
-A horror-themed Truth or Dare game built using HTML, CSS, and JavaScript.
+A horror-themed Truth or Dare web application built using HTML, CSS, and JavaScript.
 
-## Features
+## ✨ Features
 
-* Random Truth questions
-* Random Dare challenges
-* Horror-themed background
-* Popup animations
-* Responsive design
+- Random Truth questions
+- Random Dare challenges
+- Horror background design
+- Animated popup questions
+- User answer input
+- Save answer functionality
+- Download answers as TXT file
 
-## Technologies Used
+## 🛠 Technologies Used
 
-* HTML5
-* CSS3
-* JavaScript
+- HTML5
+- CSS3
+- JavaScript
 
-## Author
+## 🚀 Future Improvements
+
+- Local Storage support
+- Score system
+- Multiplayer mode
+- Online leaderboard
+
+## 👨‍💻 Author
 
 Refaii Chungath
+Frontend Developer
+
+GitHub: @Refaiii
